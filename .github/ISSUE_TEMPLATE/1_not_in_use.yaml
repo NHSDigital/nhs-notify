@@ -1,0 +1,13 @@
+# See:
+# - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+# - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms
+# - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/common-validation-errors-when-creating-issue-forms
+
+name: 🔧 Not In Use
+description: Not currently in use
+labels: ["blackhole"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Currently these are not monitored and will goto a blackhole.
