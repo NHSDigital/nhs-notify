@@ -7,7 +7,7 @@ NHS Notify - for the NHS Notify web site, onboarding guidance, and customer supp
 ## Who/what is this repository is for?
 
 - NHS Developers working on NHS Notify
-- Those who are interested in how NHS Notify is architected and developed.
+- Those who are interested in NHS Notify architecture and how it is developed.
 
 ## Who/what is this repository not for?
 
