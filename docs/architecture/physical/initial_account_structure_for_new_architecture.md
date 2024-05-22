@@ -1,4 +1,8 @@
-# Initial account structure for new architecture
+---
+layout: default
+title:  Initial account structure for new architecture
+parent: Architecture
+---
 
 * The initial accounts have been created reflect the structure we
   intend to use for the new Web UI

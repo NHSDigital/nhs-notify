@@ -1,4 +1,8 @@
-# Sub-domains and bounded contexts
+---
+layout: default
+title:  Sub-domains and bounded contexts
+parent: Architecture
+---
 
 [Bounded contexts][1] are a pattern used in DDD to model parts of a
 system which operate on a single consistent model of part of a

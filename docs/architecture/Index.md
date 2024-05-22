@@ -1,4 +1,9 @@
-# Architecture
+---
+layout: default
+title: Architecture
+nav_order: 4
+has_children: true
+---
 
 Be aware of NHS organizational
 standards: [NHS Architecture Principles][nhsap] | [Software Engineering Quality Framework][seqf] |
