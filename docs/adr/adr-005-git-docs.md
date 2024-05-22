@@ -23,5 +23,5 @@ summary: Documentation stored within repo
 - /docs folder to hold relevant technical documentation for the code in that repository
 - Utilise this instead of internal confluence repositories
 - Markdown as standard
-- github pages for build and deploy
+- GitHub pages for build and deploy
 - Just the docs as the standard theme
