@@ -1,4 +1,10 @@
-# Guide: Sign Git commits
+---
+layout: default
+title:  Sign Git commits
+parent: User Guides
+---
+
+## Guide: Sign Git commits
 
 - [Guide: Sign Git commits](#guide-sign-git-commits)
   - [Overview](#overview)

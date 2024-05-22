@@ -1,4 +1,10 @@
-# Developer Guide: Bash and Make
+---
+layout: default
+title:  Bash and Make
+parent: Developer Guides
+---
+
+## Developer Guide: Bash and Make
 
 - [Developer Guide: Bash and Make](#developer-guide-bash-and-make)
   - [Using Make](#using-make)

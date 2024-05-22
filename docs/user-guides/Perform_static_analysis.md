@@ -1,11 +1,17 @@
-# Guide: Perform static analysis
+---
+layout: default
+title:  Perform static analysis
+parent: User Guides
+---
+
+## Guide: Perform static analysis
 
 - [Guide: Perform static analysis](#guide-perform-static-analysis)
-  - [Overview](#overview)
-  - [Key files](#key-files)
-  - [Setup](#setup)
-  - [Testing](#testing)
-  - [Configuration checklist](#configuration-checklist)
+- [Overview](#overview)
+- [Key files](#key-files)
+- [Setup](#setup)
+- [Testing](#testing)
+- [Configuration checklist](#configuration-checklist)
 
 ## Overview
 

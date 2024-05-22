@@ -1,4 +1,10 @@
-# Developer Guide: Scripting Docker
+---
+layout: default
+title:  Scripting Docker
+parent: Developer Guides
+---
+
+## Developer Guide: Scripting Docker
 
 - [Developer Guide: Scripting Docker](#developer-guide-scripting-docker)
   - [Overview](#overview)

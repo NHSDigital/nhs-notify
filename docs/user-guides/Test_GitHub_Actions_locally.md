@@ -1,11 +1,17 @@
-# Guide: Test GitHub Actions locally
+---
+layout: default
+title:  Test GitHub Actions locally
+parent: User Guides
+---
+
+## Guide: Test GitHub Actions locally
 
 - [Guide: Test GitHub Actions locally](#guide-test-github-actions-locally)
-  - [Overview](#overview)
-  - [Key files](#key-files)
-  - [Prerequisites](#prerequisites)
-  - [Testing](#testing)
-  - [FAQ](#faq)
+- [Overview](#overview)
+- [Key files](#key-files)
+- [Prerequisites](#prerequisites)
+- [Testing](#testing)
+- [FAQ](#faq)
 
 ## Overview
 

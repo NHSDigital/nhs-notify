@@ -1,4 +1,10 @@
-# Guide: Scan dependencies
+---
+layout: default
+title:  Scan dependencies
+parent: User Guides
+---
+
+## Guide: Scan dependencies
 
 - [Guide: Scan dependencies](#guide-scan-dependencies)
   - [Overview](#overview)
