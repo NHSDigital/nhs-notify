@@ -21,7 +21,7 @@ NHS Notify - for the NHS Notify web site, onboarding guidance, and customer supp
 - NHS Developers working on NHS Notify
 - Those who are interested in NHS Notify architecture and how it is developed.
 
-## Who/what is this repository not for?
+## Who/what is this repository **not** for?
 
 - Customer Support
 - Supplier Support
@@ -39,7 +39,7 @@ NHS Notify - for the NHS Notify web site, onboarding guidance, and customer supp
 
 - [Related Repos](#related-repos)
 - [Who/what is this repository is for?](#whowhat-is-this-repository-is-for)
-- [Who/what is this repository not for?](#whowhat-is-this-repository-not-for)
+- [Who/what is this repository **not** for?](#whowhat-is-this-repository-not-for)
 - [What this repo contains](#what-this-repo-contains)
 - [What this repo does not contain](#what-this-repo-does-not-contain)
 - [Table of Contents](#table-of-contents)
