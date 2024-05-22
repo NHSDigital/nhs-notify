@@ -12,8 +12,8 @@ bounded contexts these are some suggestions for structuring the AWS
 accounts and components which are deployed within them.
 
 * By default, each sub-domain has its own AWS accounts
-  * <sub-domain>-preprod (aka Dev)
-  * <sub-domain>-prod
+  * `<sub-domain>-preprod` (AKA `dev`)
+  * `<sub-domain>-prod`
 * Each sub-domain will have a top-level GitHub repo which defines the
   account-level infrastructure
 * Each sub-domain will have one or more bounded contexts
