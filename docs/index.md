@@ -7,7 +7,7 @@ title: Home
 nav_order: 1
 ---
 
-[![CI/CD Pull Request](https://github.com/NHSDigital/nhs-notify/actions/workflows/cicd-1-pull-request.yaml/badge.svg)](https://github.com/NHSDigital/nhs-notify/actions/workflows/cicd-1-pull-request.yaml)
+[![CI/CD Pull Request](https://github.com/NHSDigital/nhs-notify/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/NHSDigital/nhs-notify/actions/workflows/jekyll-gh-pages.yml)
 
 NHS Notify - for the NHS Notify web site, onboarding guidance, and customer support, please visit the [NHS Service Catalogue](https://digital.nhs.uk/services/nhs-notify).
 

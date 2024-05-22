@@ -51,7 +51,12 @@ gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 nav_external_links:
-  - title: NHS Notify Dns
+  - title: Notify Service Catalogue
+    url: https://digital.nhs.uk/services/nhs-notify
+    hide_icon: false # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
+
+  - title: Notify Dns Tech Docs
     url: https://nhsdigital.github.io/nhs-notify-dns/
     hide_icon: false # set to true to hide the external link icon - defaults to false
     opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
