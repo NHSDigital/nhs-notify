@@ -16,3 +16,4 @@ onboarding
 toolchain
 [A-Z]+s
 repo
+GitHub
