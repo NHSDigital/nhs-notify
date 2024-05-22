@@ -1,4 +1,10 @@
-# ADR-001: Use git hook and GitHub Action to check the `.editorconfig` compliance
+---
+layout: default
+title: ADR-001
+parent: ADRs
+---
+
+## ADR-001: Use git hook and GitHub Action to check the `.editorconfig` compliance
 
 >|              |                                                      |
 >| ------------ | ---------------------------------------------------- |
@@ -11,22 +17,22 @@
 ---
 
 - [ADR-001: Use git hook and GitHub Action to check the `.editorconfig` compliance](#adr-001-use-git-hook-and-github-action-to-check-the-editorconfig-compliance)
-  - [Context](#context)
-  - [Decision](#decision)
-    - [Assumptions](#assumptions)
-    - [Drivers](#drivers)
-    - [Options](#options)
-      - [Options 1: The pre-commit project](#options-1-the-pre-commit-project)
-      - [Options 2a: Custom shell script](#options-2a-custom-shell-script)
-      - [Options 2b: Docker-based custom shell script](#options-2b-docker-based-custom-shell-script)
-      - [Option 3: A GitHub Action from the Marketplace](#option-3-a-github-action-from-the-marketplace)
-    - [Outcome](#outcome)
-    - [Rationale](#rationale)
-  - [Consequences](#consequences)
-  - [Compliance](#compliance)
-  - [Notes](#notes)
-  - [Actions](#actions)
-  - [Tags](#tags)
+- [Context](#context)
+- [Decision](#decision)
+  - [Assumptions](#assumptions)
+  - [Drivers](#drivers)
+  - [Options](#options)
+    - [Options 1: The pre-commit project](#options-1-the-pre-commit-project)
+    - [Options 2a: Custom shell script](#options-2a-custom-shell-script)
+    - [Options 2b: Docker-based custom shell script](#options-2b-docker-based-custom-shell-script)
+    - [Option 3: A GitHub Action from the Marketplace](#option-3-a-github-action-from-the-marketplace)
+  - [Outcome](#outcome)
+  - [Rationale](#rationale)
+- [Consequences](#consequences)
+- [Compliance](#compliance)
+- [Notes](#notes)
+- [Actions](#actions)
+- [Tags](#tags)
 
 ## Context
 

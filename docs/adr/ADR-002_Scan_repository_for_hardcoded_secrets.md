@@ -1,4 +1,10 @@
-# ADR-002: Scan repository for hard-coded secrets
+---
+layout: default
+title: ADR-002
+parent: ADRs
+---
+
+## ADR-002: Scan repository for hard-coded secrets
 
 >|              |                                                               |
 >| ------------ | ------------------------------------------------------------- |
@@ -11,18 +17,18 @@
 ---
 
 - [ADR-002: Scan repository for hard-coded secrets](#adr-002-scan-repository-for-hard-coded-secrets)
-  - [Context](#context)
-  - [Decision](#decision)
-    - [Assumptions](#assumptions)
-    - [Drivers](#drivers)
-    - [Options](#options)
-    - [Outcome](#outcome)
-    - [Rationale](#rationale)
-  - [Consequences](#consequences)
-  - [Compliance](#compliance)
-  - [Notes](#notes)
-  - [Actions](#actions)
-  - [Tags](#tags)
+- [Context](#context)
+- [Decision](#decision)
+  - [Assumptions](#assumptions)
+  - [Drivers](#drivers)
+  - [Options](#options)
+  - [Outcome](#outcome)
+  - [Rationale](#rationale)
+- [Consequences](#consequences)
+- [Compliance](#compliance)
+- [Notes](#notes)
+- [Actions](#actions)
+- [Tags](#tags)
 
 ## Context
 

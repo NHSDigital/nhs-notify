@@ -1,4 +1,10 @@
-# ADR-003: Acceptable use of GitHub authentication and authorisation mechanisms
+---
+layout: default
+title: ADR-003
+parent: ADRs
+---
+
+## ADR-003: Acceptable use of GitHub authentication and authorisation mechanisms
 
 >|              | |
 >| ------------ | --- |
@@ -11,27 +17,27 @@
 ---
 
 - [ADR-003: Acceptable use of GitHub authentication and authorisation mechanisms](#adr-003-acceptable-use-of-github-authentication-and-authorisation-mechanisms)
-  - [Context](#context)
-  - [Decision](#decision)
-    - [Assumptions](#assumptions)
-    - [Drivers](#drivers)
-    - [Options](#options)
-    - [Outcome](#outcome)
-      - [Built-in authentication using `GITHUB_TOKEN` secret](#built-in-authentication-using-github_token-secret)
-      - [GitHub PAT (fine-grained Personal Access Token)](#github-pat-fine-grained-personal-access-token)
-      - [GitHub App](#github-app)
-    - [Rationale](#rationale)
-  - [Notes](#notes)
-    - [GitHub App setup](#github-app-setup)
-      - [Recommendation for GitHub Admins](#recommendation-for-github-admins)
-    - [Diagram](#diagram)
-      - [Context diagram showing the GitHub App setup](#context-diagram-showing-the-github-app-setup)
-      - [Authentication flow diagram](#authentication-flow-diagram)
-    - [Limitations](#limitations)
-    - [Examples of acquiring access token](#examples-of-acquiring-access-token)
-  - [Actions](#actions)
-  - [Tags](#tags)
-  - [Footnotes](#footnotes)
+- [Context](#context)
+- [Decision](#decision)
+  - [Assumptions](#assumptions)
+  - [Drivers](#drivers)
+  - [Options](#options)
+  - [Outcome](#outcome)
+    - [Built-in authentication using `GITHUB_TOKEN` secret](#built-in-authentication-using-github_token-secret)
+    - [GitHub PAT (fine-grained Personal Access Token)](#github-pat-fine-grained-personal-access-token)
+    - [GitHub App](#github-app)
+  - [Rationale](#rationale)
+- [Notes](#notes)
+  - [GitHub App setup](#github-app-setup)
+    - [Recommendation for GitHub Admins](#recommendation-for-github-admins)
+  - [Diagram](#diagram)
+    - [Context diagram showing the GitHub App setup](#context-diagram-showing-the-github-app-setup)
+    - [Authentication flow diagram](#authentication-flow-diagram)
+  - [Limitations](#limitations)
+  - [Examples of acquiring access token](#examples-of-acquiring-access-token)
+- [Actions](#actions)
+- [Tags](#tags)
+- [Footnotes](#footnotes)
 
 ## Context
 
