@@ -1,4 +1,4 @@
-## Architecture
+# Architecture
 
 Be aware of NHS organizational
 standards: [NHS Architecture Principles][nhsap] | [Software Engineering Quality Framework][seqf] |
@@ -10,19 +10,19 @@ standards: [NHS Architecture Principles][nhsap] | [Software Engineering Quality 
 
 [rmc]:https://transform.england.nhs.uk/information-governance/guidance/records-management-code/
 
-### General principles for diagrams
+## General principles for diagrams
 
 * Pages are structured using the [4+1 View of Architecture][Kruchten]
   and flow from high level to broken down functionality.
 * Final "view" documentation is meant to represent the "current" view
   of the system, not work in progress
 * Diagram checklist to help with consistency:
-    1. Diagrams flow from left to right, then top to bottom to allow
-       readability
-    2. 0.5 line and shape width
-    3. lines are recommended to have text (and preferably numbered)
-    4. provide context on which part of the system the diagram relates
-       to
+  1. Diagrams flow from left to right, then top to bottom to allow
+     readability
+  2. 0.5 line and shape width
+  3. lines are recommended to have text (and preferably numbered)
+  4. provide context on which part of the system the diagram relates
+     to
 
 ![img.png](assets/kruchten_4_1_model.png)
 
