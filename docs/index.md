@@ -4,6 +4,7 @@
 
 layout: home
 title: Home Page
+nav_order: 1
 ---
 
 [![CI/CD Pull Request](https://github.com/NHSDigital/nhs-notify/actions/workflows/cicd-1-pull-request.yaml/badge.svg)](https://github.com/NHSDigital/nhs-notify/actions/workflows/cicd-1-pull-request.yaml)
