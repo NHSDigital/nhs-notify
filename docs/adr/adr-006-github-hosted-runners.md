@@ -2,7 +2,7 @@
 layout: default
 title: ADR-006
 parent: ADRs
-description: ADR-006 - Github-hosted runners
+description: Github-hosted runners
 ---
 
 ## ADR-006: Github-hosted runners

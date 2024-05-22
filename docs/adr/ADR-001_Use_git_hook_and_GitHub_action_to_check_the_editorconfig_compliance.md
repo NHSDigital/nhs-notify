@@ -2,6 +2,7 @@
 layout: default
 title: ADR-001
 parent: ADRs
+description: se git hook and GitHub Action to check the .editorconfig compliance
 ---
 
 ## ADR-001: Use git hook and GitHub Action to check the `.editorconfig` compliance
