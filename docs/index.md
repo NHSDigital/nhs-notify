@@ -6,8 +6,6 @@ layout: home
 title: Home Page
 ---
 
-# Notify
-
 [![CI/CD Pull Request](https://github.com/NHSDigital/nhs-notify/actions/workflows/cicd-1-pull-request.yaml/badge.svg)](https://github.com/NHSDigital/nhs-notify/actions/workflows/cicd-1-pull-request.yaml)
 
 NHS Notify - for the NHS Notify web site, onboarding guidance, and customer support, please visit the [NHS Service Catalogue](https://digital.nhs.uk/services/nhs-notify).
@@ -38,17 +36,16 @@ NHS Notify - for the NHS Notify web site, onboarding guidance, and customer supp
 
 ## Table of Contents
 
-- [Notify](#notify)
-  - [Related Repos](#related-repos)
-  - [Who/what is this repository is for?](#whowhat-is-this-repository-is-for)
-  - [Who/what is this repository not for?](#whowhat-is-this-repository-not-for)
-  - [What this repo contains](#what-this-repo-contains)
-  - [What this repo does not contain](#what-this-repo-does-not-contain)
-  - [Table of Contents](#table-of-contents)
-  - [Documentation](#documentation)
-  - [Setup](#setup)
-  - [Contributing](#contributing)
-  - [Licence](#licence)
+- [Related Repos](#related-repos)
+- [Who/what is this repository is for?](#whowhat-is-this-repository-is-for)
+- [Who/what is this repository not for?](#whowhat-is-this-repository-not-for)
+- [What this repo contains](#what-this-repo-contains)
+- [What this repo does not contain](#what-this-repo-does-not-contain)
+- [Table of Contents](#table-of-contents)
+- [Documentation](#documentation)
+- [Setup](#setup)
+- [Contributing](#contributing)
+- [Licence](#licence)
 
 ## Documentation
 
