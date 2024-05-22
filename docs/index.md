@@ -87,7 +87,7 @@ The following software packages, or their equivalents, are expected to be instal
 
 ### Configuration
 
-Installation and configuration of the toolchain dependencies (including pre git hooks).
+Installation and configuration of the toolchain dependencies (including pre-git hooks).
 
 ```shell
 make config
