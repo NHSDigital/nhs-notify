@@ -2,6 +2,8 @@
 layout: default
 title: ADR-002
 parent: ADRs
+description: Scan repository for hard-coded secrets
+summary: Scan repository for hard-coded secrets
 ---
 
 ## ADR-002: Scan repository for hard-coded secrets

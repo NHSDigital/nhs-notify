@@ -2,6 +2,8 @@
 layout: default
 title: ADR-003
 parent: ADRs
+description: Acceptable use of GitHub authentication and authorisation mechanisms
+summary: Acceptable use of GitHub authentication and authorisation mechanisms
 ---
 
 ## ADR-003: Acceptable use of GitHub authentication and authorisation mechanisms
