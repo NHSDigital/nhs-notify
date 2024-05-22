@@ -2,7 +2,8 @@
 layout: default
 title: ADR-004
 parent: ADRs
-description: Github as default git upstream location
+#description: Github as default git upstream location
+summary: Github as default git upstream location
 ---
 
 ## ADR-004: Github as default git upstream location

@@ -3,6 +3,7 @@ layout: default
 title: ADR-007
 parent: ADRs
 description: Naming Conventions
+summary: Naming Conventions
 ---
 
 ## ADR-007: Naming Conventions
