@@ -5,6 +5,8 @@ nav_order: 4
 has_children: true
 ---
 
+## Architecture
+
 Be aware of NHS organizational
 standards: [NHS Architecture Principles][nhsap] | [Software Engineering Quality Framework][seqf] |
 [Records Management Code of Practise][rmc]

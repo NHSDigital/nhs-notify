@@ -4,6 +4,8 @@ title:  Initial account structure for new architecture
 parent: Architecture
 ---
 
+## Initial account structure for new architecture
+
 * The initial accounts have been created reflect the structure we
   intend to use for the new Web UI
   * A top-level DNS sub-domain provides the mapping from the nhsnotify
