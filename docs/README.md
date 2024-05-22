@@ -1,4 +1,4 @@
-# NHS Notify
+# NHS Notify Documentation
 
 [![CI/CD Pull Request](https://github.com/NHSDigital/nhs-notify/actions/workflows/cicd-1-pull-request.yaml/badge.svg)](https://github.com/NHSDigital/nhs-notify/actions/workflows/cicd-1-pull-request.yaml)
 
@@ -30,7 +30,7 @@ NHS Notify - for the NHS Notify web site, onboarding guidance, and customer supp
 
 ## Table of Contents
 
-- [NHS Notify](#nhs-notify)
+- [NHS Notify Documentation](#nhs-notify-documentation)
   - [Related Repos](#related-repos)
   - [Who/what is this repository is for?](#whowhat-is-this-repository-is-for)
   - [Who/what is this repository not for?](#whowhat-is-this-repository-not-for)
