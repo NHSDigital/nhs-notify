@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: NHS Notify Tech Docs
+title: NHS Notify Dev Docs
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Technical documentation for the NHS Notify Platform.
+  Technical developer documentation for the NHS Notify Platform.
 baseurl: "/nhs-notify" # the subpath of your site, e.g. /blog
 url: "https://nhsdigital.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
