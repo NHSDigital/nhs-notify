@@ -1,7 +1,8 @@
 ---
 layout: default
-title:  Sub-domains and bounded contexts
+title: Sub-domains and bounded contexts
 parent: Physical View
+grand_parent: Architecture
 ---
 
 ## Sub-domains and bounded contexts
