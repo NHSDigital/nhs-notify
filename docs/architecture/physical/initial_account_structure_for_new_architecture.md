@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Initial account structure for new architecture
-parent: Architecture
+parent: Physical View
 ---
 
 ## Initial account structure for new architecture

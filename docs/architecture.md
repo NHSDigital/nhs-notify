@@ -17,7 +17,7 @@ standards: [NHS Architecture Principles][nhsap] | [Software Engineering Quality 
 
 [rmc]:https://transform.england.nhs.uk/information-governance/guidance/records-management-code/
 
-## General principles for diagrams
+### General principles for diagrams
 
 * Pages are structured using the [4+1 View of Architecture][Kruchten]
   and flow from high level to broken down functionality.
@@ -31,12 +31,11 @@ standards: [NHS Architecture Principles][nhsap] | [Software Engineering Quality 
   4. provide context on which part of the system the diagram relates
      to
 
-![img.png](assets/kruchten_4_1_model.png)
-
-[<figcaption>Architectural Blueprints—The “4+1” View Model of Software Architecture</figcaption>][Kruchten]
+![img.png](architecture/assets/kruchten_4_1_model.png)
+[Architectural Blueprints—The “4+1” View Model of Software Architecture][Kruchten]
 
 [Kruchten]: https://ics.uci.edu/~michele/Teaching/INF117/Krutchten%204+1View%20SWArch.pdf
 
 * Physical
-  * [Sub-domains and bounded contexts](physical/sub-domains_and_bounded_contexts)
-  * [Initial account structure for new architecture](physical/initial_account_structure_for_new_architecture)
+  * [Sub-domains and bounded contexts](architecture/physical/sub-domains_and_bounded_contexts)
+  * [Initial account structure for new architecture](architecture/physical/initial_account_structure_for_new_architecture)

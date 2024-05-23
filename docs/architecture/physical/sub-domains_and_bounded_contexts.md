@@ -1,13 +1,13 @@
 ---
 layout: default
 title:  Sub-domains and bounded contexts
-parent: Architecture
+parent: Physical View
 ---
 
 ## Sub-domains and bounded contexts
 
 [Bounded contexts][1] are a pattern used in DDD to model parts of a
-system which operate on a single consistent model of part of a
+system which operate on a single "unified" model of part of a
 business domain.
 
 [1]: https://martinfowler.com/bliki/BoundedContext.html
@@ -33,8 +33,5 @@ accounts and components which are deployed within them.
   * Each microservice should be individually deployable with defined
     contracts between services
   * Each microservice should be contained in its own GitHub repo
-* Questions:
-  * Where are audit logs kept? Per sub-domain, or shared location in
-    isolated account?
 
 ![Bounded Context Diagram](assets/Bounded_Context.drawio.png)
