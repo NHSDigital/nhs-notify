@@ -1,0 +1,11 @@
+<h2>Repository List</h2>
+
+<ul>
+{% for repo in site.notify-repos %}
+  <li>
+    <a href="https://www.github.com/NHSDigital/{{repo.repo-name}}">
+      {{ repo.name }} - {{ repo.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>

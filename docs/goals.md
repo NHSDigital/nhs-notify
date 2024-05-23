@@ -5,6 +5,8 @@ nav_order: 5
 has_children: true
 ---
 
+## Development Goals
+
 ## Goals for ways of working
 
 - A new developer should be able to start working and release code on day 1
