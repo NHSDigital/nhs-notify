@@ -3,7 +3,6 @@ layout: default
 title:  Sub-domains and bounded contexts
 parent: Physical View
 ---
-## Sub-domains and bounded contexts
 
 ## Sub-domains and bounded contexts
 
