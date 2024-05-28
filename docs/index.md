@@ -14,7 +14,7 @@ nav_order: 1
 > Please visit the [NHS Service Catalogue](https://digital.nhs.uk/services/nhs-notify) for:
 >
 > - NHS Notify web site
-> - onboarding guidance
+> - Onboarding guidance
 > - Customer support
 > - Supplier support
 >
