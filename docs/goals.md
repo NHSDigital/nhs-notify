@@ -12,7 +12,7 @@ has_children: true
 - A new developer should be able to start working and release code on day 1
 - Releases are non events
 - Clear separation of release, deploy and feature enablement
-- Automate automate automate - move tests left, they run early
+- Automate - move tests left, they run early
 - Governance approval not to block release - gain feature approval early
 - Full Stack, Full lifetime teams - design it, build it, maintain it, support it
 - Small teams with clearly defined ownership of code / sub-domains
