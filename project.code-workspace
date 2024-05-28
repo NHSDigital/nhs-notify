@@ -4,5 +4,10 @@
       "name": "NHS Notify",
       "path": "."
     }
-  ]
+  ],
+  "settings": {
+    "cSpell.words": [
+      "endfor"
+    ]
+  }
 }
