@@ -13,10 +13,10 @@ nav_order: 1
 
 > Please visit the [NHS Service Catalogue](https://digital.nhs.uk/services/nhs-notify) for:
 >
-> - NHS Notify web site
-> - Onboarding guidance
-> - Customer support
-> - Supplier support
+> - NHS Notify web site.
+> - Onboarding guidance.
+> - Customer support.
+> - Supplier support.
 >
 > ### Who/what is this repository is for?
 >
