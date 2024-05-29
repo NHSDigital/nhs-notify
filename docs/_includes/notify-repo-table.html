@@ -2,18 +2,17 @@
 
 <table>
   <tr>
-  <th>Repository Name</th><th>More Info</th>
-</tr>
-{% for repo in site.notify-repos %}
+    <th>Repository Name</th>
+    <th>More Info</th>
+  </tr>
+  {% for repo in site.notify-repos %}
   <tr>
-    <td>
-      {{repo.repo-name}}
-    </td>
+    <td>{{repo.repo-name}}</td>
     <td>
       <a href="{{site.baseurl}}/notify-repos/{{repo.repo-name}}.html">
-         {{ repo.name }} - {{ repo.description }}
-    </a>
-  </td>
+        {{ repo.name }} - {{ repo.description }}
+      </a>
+    </td>
   </tr>
-{% endfor %}
+  {% endfor %}
 </table>
