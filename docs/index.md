@@ -9,46 +9,52 @@ nav_order: 1
 
 [![CI/CD Pull Request](https://github.com/NHSDigital/nhs-notify/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/NHSDigital/nhs-notify/actions/workflows/jekyll-gh-pages.yml)
 
-NHS Notify - for the NHS Notify web site, onboarding guidance, and customer support, please visit the [NHS Service Catalogue](https://digital.nhs.uk/services/nhs-notify).
+## NHS Notify Technical Developer Documentation
 
-## Related Repos
-
-- [nhs-notify](https://nhsdigital.github.io/nhs-notify)
-- [nhs-notify-dns](https://nhsdigital.github.io/nhs-notify-dns)
-
-## Who/what is this repository is for?
-
-- NHS Developers working on NHS Notify
-- Those who are interested in NHS Notify architecture and how it is developed.
-
-## Who/what is this repository **not** for?
-
-- Customer Support
-- Supplier Support
-
-## What this repo contains
-
-- High level developer documentation for source code location, and build process.
-- Acts as the "root" for all separate public NHS Notify repositories.
-
-## What this repo does not contain
-
-- Any configuration of details of the Deployment phases or infrastructure of the NHS Notify Platform.
+> Please visit the [NHS Service Catalogue](https://digital.nhs.uk/services/nhs-notify) for:
+>
+> - NHS Notify web site.
+> - Onboarding guidance.
+> - Customer support.
+> - Supplier support.
+>
+> ### Who/what is this repository is for?
+>
+> - NHS Developers working on NHS Notify
+> - Those who are interested in NHS Notify architecture and how it is actively developed
+>
+> ### Who/what is this repository **not** for?
+>
+> - Customer Support
+> - Supplier Support
+>
+> ### What this repo contains
+>
+> - High level developer documentation for source code location, and build process.
+> - Acts as the "root" for all separate public NHS Notify repositories.
+>
+> ### What this repo does **not** contain
+>
+> - Any configuration of details of the Deployment phases or infrastructure of the NHS Notify Platform.
+> - Information about the NHS England hosted NHS Notify platform
+>
 
 ## Table of Contents
 
-- [Related Repos](#related-repos)
-- [Who/what is this repository is for?](#whowhat-is-this-repository-is-for)
-- [Who/what is this repository **not** for?](#whowhat-is-this-repository-not-for)
-- [What this repo contains](#what-this-repo-contains)
-- [What this repo does not contain](#what-this-repo-does-not-contain)
+- [NHS Notify Technical Developer Documentation](#nhs-notify-technical-developer-documentation)
 - [Table of Contents](#table-of-contents)
+- [Related Repos](#related-repos)
 - [Documentation](#documentation)
 - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Configuration](#configuration)
 - [Contributing](#contributing)
 - [Licence](#licence)
+
+## Related Repos
+
+- [nhs-notify](https://nhsdigital.github.io/nhs-notify)
+- [nhs-notify-dns](https://nhsdigital.github.io/nhs-notify-dns)
 
 ## Documentation
 
