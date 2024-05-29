@@ -4,7 +4,13 @@ layout: default
 
 <h1>{{page.name}} Repository</h1>
 
+<p>
 {{page.description}}
+</p>
+
+<p>
+<a href="https://github.com/NHSDigital/{{page.repo-name}}">https://github.com/NHSDigital/{{page.repo-name}}</a>
+</p>
 
 <h2>Authors</h2>
 
