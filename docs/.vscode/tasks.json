@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "jekyll",
+      "options": {
+        "cwd": "${workspaceFolder}"
+    },
+      "command": "make debug",
+      "type": "shell"
+    }
+  ]
+}
