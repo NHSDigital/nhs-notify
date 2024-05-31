@@ -28,9 +28,97 @@ url: "https://nhsdigital.github.io" # the base hostname & protocol for your site
 collections_dir: _collections
 
 collections:
-  notify-repos:
+  repos:
     output: true
     sort_by: order
+  guides:
+     output: true
+     sort_by: order
+  adrs:
+     output: true
+     sort_by: order
+  architecture:
+     output: true
+     sort_by: order
+  principles:
+     output: true
+     sort_by: order
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "repos"
+    values:
+      layout: "notify-repo"
+      is_not_draft: false
+      owner: NHS Notify
+      author: NHS Notify
+      last_modified_date: 2024-01-01
+  -
+    scope:
+      path: ""
+      type: "adrs"
+    values:
+      layout: "page"
+      is_not_draft: false
+      owner: NHS Notify
+      author: NHS Notify
+      last_modified_date: 2024-01-01
+  -
+    scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "page"
+      is_not_draft: false
+      owner: NHS Notify
+      author: NHS Notify
+      last_modified_date: 2024-01-01
+  -
+    scope:
+      path: ""
+      type: "principles"
+    values:
+      layout: "page"
+      is_not_draft: false
+      owner: NHS Notify
+      author: NHS Notify
+      last_modified_date: 2024-01-01
+  -
+    scope:
+      path: ""
+      type: "architecture"
+    values:
+      layout: "page"
+      is_not_draft: false
+      owner: NHS Notify
+      author: NHS Notify
+      last_modified_date: 2024-01-01
+
+just_the_docs:
+  collections:
+    # Reference the "tests" collection
+    architecture:
+      name: Architecture
+    principles:
+      name: Principles and Practices
+    repos:
+      name: Notify Repositories
+    adrs:
+      name: Architectural Decisions
+    guides:
+      # Give the collection a name
+      name: Guides and How Tos
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: false
+      # Fold the collection in the navigation
+      # Supports true or false (default)
+      nav_fold: false  # note: this option is new in v0.4
+      # Exclude the collection from the search
+      # Supports true or false (defaul
+      search_exclude: false
 
 # Build settings
 theme: just-the-docs
