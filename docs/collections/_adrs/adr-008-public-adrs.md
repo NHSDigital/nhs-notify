@@ -12,7 +12,6 @@ summary: Programme wide public ADRS
 | Deciders     | `Engineering`  |
 | Significance | `Ross Buggins` |
 
-- [ADR-008: Programme wide public ADRS](#adr-008-programme-wide-public-adrs)
 - [Decision](#decision)
 
 ## Decision
