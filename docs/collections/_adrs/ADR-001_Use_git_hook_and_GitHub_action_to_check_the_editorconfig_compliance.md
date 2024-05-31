@@ -1,5 +1,4 @@
 ---
-
 title: ADR-001
 parent: Active ADRs
 description: Use git hook and GitHub Action to check the .editorconfig compliance
@@ -8,15 +7,13 @@ summary: Use git hook and GitHub Action to check the .editorconfig compliance
 
 ## ADR-001: Use git hook and GitHub Action to check the `.editorconfig` compliance
 
->|              |                                                      |
->| ------------ | ---------------------------------------------------- |
->| Date         | `04/07/2023`                                         |
->| Status       | `RFC`                                                |
->| Deciders     | `Engineering`                                        |
->| Significance | `Construction techniques`                            |
->| Owners       | `Dan Stefaniuk, Amaan Ibn-Nasar, Thomas Judd-Cooper` |
-
----
+> |              |                                                      |
+> | ------------ | ---------------------------------------------------- |
+> | Date         | `04/07/2023`                                         |
+> | Status       | `RFC`                                                |
+> | Deciders     | `Engineering`                                        |
+> | Significance | `Construction techniques`                            |
+> | Owners       | `Dan Stefaniuk, Amaan Ibn-Nasar, Thomas Judd-Cooper` |
 
 - [ADR-001: Use git hook and GitHub Action to check the `.editorconfig` compliance](#adr-001-use-git-hook-and-github-action-to-check-the-editorconfig-compliance)
 - [Context](#context)
