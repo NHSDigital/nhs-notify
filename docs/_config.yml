@@ -32,21 +32,20 @@ collections:
     output: true
     sort_by: order
   guides:
-     output: true
-     sort_by: order
+    output: true
+    sort_by: order
   adrs:
-     output: true
-     sort_by: order
+    output: true
+    sort_by: order
   architecture:
-     output: true
-     sort_by: order
+    output: true
+    sort_by: order
   principles:
-     output: true
-     sort_by: order
+    output: true
+    sort_by: order
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "repos"
     values:
@@ -55,8 +54,7 @@ defaults:
       owner: NHS Notify
       author: NHS Notify
       last_modified_date: 2024-01-01
-  -
-    scope:
+  - scope:
       path: ""
       type: "adrs"
     values:
@@ -65,8 +63,7 @@ defaults:
       owner: NHS Notify
       author: NHS Notify
       last_modified_date: 2024-01-01
-  -
-    scope:
+  - scope:
       path: ""
       type: "guides"
     values:
@@ -75,8 +72,7 @@ defaults:
       owner: NHS Notify
       author: NHS Notify
       last_modified_date: 2024-01-01
-  -
-    scope:
+  - scope:
       path: ""
       type: "principles"
     values:
@@ -85,8 +81,7 @@ defaults:
       owner: NHS Notify
       author: NHS Notify
       last_modified_date: 2024-01-01
-  -
-    scope:
+  - scope:
       path: ""
       type: "architecture"
     values:
@@ -115,7 +110,7 @@ just_the_docs:
       nav_exclude: false
       # Fold the collection in the navigation
       # Supports true or false (default)
-      nav_fold: false  # note: this option is new in v0.4
+      nav_fold: false # note: this option is new in v0.4
       # Exclude the collection from the search
       # Supports true or false (defaul
       search_exclude: false
@@ -161,12 +156,10 @@ nav_external_links:
     hide_icon: false # set to true to hide the external link icon - defaults to false
     opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
 
-
 callouts:
   warning:
     title: Warning
     color: red
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
