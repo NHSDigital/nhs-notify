@@ -1,12 +1,8 @@
 ---
-layout: default
+layout: page
 ---
 
-<h1>{{page.name}} Repository</h1>
-
-<p>
-{{page.description}}
-</p>
+<!-- markdownlint-disable MD041 -->
 
 <p>
 <a href="https://github.com/NHSDigital/{{page.repo-name}}">https://github.com/NHSDigital/{{page.repo-name}}</a>
@@ -20,10 +16,10 @@ layout: default
 {% endfor %}
 </ul>
 
-<p>{{ page.date }} - Written by {{ page.author }}</p>
-
 <h2>Content</h2>
 
 {{ content }}
 
 {% include notify-repo-list.html %}
+
+<!-- markdownlint-enable MD041 -->

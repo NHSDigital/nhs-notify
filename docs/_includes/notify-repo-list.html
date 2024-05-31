@@ -1,11 +1,11 @@
 <h2>Repository List</h2>
 
 <ul>
-{% for repo in site.notify-repos %}
+  {% for repo in site.repos %} {% if repo.order > 0 %}
   <li>
-      <a href="{{site.baseurl}}/notify-repos/{{repo.repo-name}}.html">
+    <a href="{{site.baseurl}}/repos/{{repo.repo-name}}.html">
       {{ repo.name }} - {{ repo.description }}
     </a>
   </li>
-{% endfor %}
+  {% endif %} {% endfor %}
 </ul>
