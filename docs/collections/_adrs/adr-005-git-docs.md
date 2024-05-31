@@ -1,12 +1,9 @@
 ---
-
 title: ADR-005
 parent: Active ADRs
 description: Documentation stored within repo
 summary: Documentation stored within repo
 ---
-
-## ADR-005: Documentation stored within repo
 
 |              |                |
 | ------------ | -------------- |

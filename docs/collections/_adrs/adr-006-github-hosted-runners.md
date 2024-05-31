@@ -1,12 +1,9 @@
 ---
-
 title: ADR-006
 parent: Active ADRs
 description: GitHub-hosted runners
 summary: GitHub-hosted runners
 ---
-
-## ADR-006: GitHub-hosted runners
 
 |              |                |
 | ------------ | -------------- |
@@ -15,7 +12,6 @@ summary: GitHub-hosted runners
 | Deciders     | `Engineering`  |
 | Significance | `Ross Buggins` |
 
-- [ADR-006: GitHub-hosted runners](#adr-006-github-hosted-runners)
 - [Decision](#decision)
 
 ## Decision

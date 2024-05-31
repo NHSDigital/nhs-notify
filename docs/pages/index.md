@@ -10,7 +10,7 @@ permalink: /
 
 [![CI/CD Pull Request](https://github.com/NHSDigital/nhs-notify/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/NHSDigital/nhs-notify/actions/workflows/jekyll-gh-pages.yml)
 
-## NHS Notify Technical Developer Documentation
+# NHS Notify Technical Developer Documentation
 
 > Please visit the [NHS Service Catalogue](https://digital.nhs.uk/services/nhs-notify) for:
 >
@@ -38,19 +38,18 @@ permalink: /
 >
 > - Any configuration of details of the Deployment phases or infrastructure of the NHS Notify Platform.
 > - Information about the NHS England hosted NHS Notify platform
->
 
 ## Table of Contents
 
 - [NHS Notify Technical Developer Documentation](#nhs-notify-technical-developer-documentation)
-- [Table of Contents](#table-of-contents)
-- [Related Repos](#related-repos)
-- [Documentation](#documentation)
-- [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Configuration](#configuration)
-- [Contributing](#contributing)
-- [Licence](#licence)
+  - [Table of Contents](#table-of-contents)
+  - [Related Repos](#related-repos)
+  - [Documentation](#documentation)
+  - [Setup](#setup)
+    - [Prerequisites](#prerequisites)
+    - [Configuration](#configuration)
+  - [Contributing](#contributing)
+  - [Licence](#licence)
 
 ## Related Repos
 
