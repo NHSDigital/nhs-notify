@@ -7,6 +7,13 @@
   font-weight: 600;
 }
 
+.main-content {
+  ul > {
+    li::before {
+      color: $grey-dk-300;
+    }
+  }
+}
 .site-title{
   font-weight: 600;
   font-size: 1.2rem !important;
