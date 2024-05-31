@@ -5,8 +5,6 @@ description: Naming Conventions
 summary: Naming Conventions
 ---
 
-## ADR-007: Naming Conventions
-
 |              |                |
 | ------------ | -------------- |
 | Date         | `2024-05-22`   |
@@ -14,7 +12,6 @@ summary: Naming Conventions
 | Deciders     | `Engineering`  |
 | Significance | `Ross Buggins` |
 
-- [ADR-007: Naming Conventions](#adr-007-naming-conventions)
 - [Decision](#decision)
 
 ## Decision

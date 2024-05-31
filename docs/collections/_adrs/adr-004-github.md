@@ -5,8 +5,6 @@ description: GitHub as default git upstream location
 summary: GitHub as default git upstream location
 ---
 
-## ADR-004: GitHub as default git upstream location
-
 |              |                |
 | ------------ | -------------- |
 | Date         | `2024-05-22`   |
@@ -14,7 +12,6 @@ summary: GitHub as default git upstream location
 | Deciders     | `Engineering`  |
 | Significance | `Ross Buggins` |
 
-- [ADR-004: GitHub as default git upstream location](#adr-004-github-as-default-git-upstream-location)
 - [Context](#context)
 - [Decision](#decision)
   - [Assumptions](#assumptions)

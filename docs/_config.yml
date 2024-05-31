@@ -95,7 +95,7 @@ just_the_docs:
   collections:
     # Reference the "tests" collection
     architecture:
-      name: Architecture
+      name: Architectural Design
     principles:
       name: Principles and Practices
     repos:

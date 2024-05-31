@@ -8,17 +8,23 @@ nav_order: 1
 permalink: /
 ---
 
+<!-- markdownlint-disable MD025 -->
+
+# NHS Notify Developer Technical Documentation
+
+<!-- markdownlint-enable MD025 -->
+
 [![CI/CD Pull Request](https://github.com/NHSDigital/nhs-notify/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/NHSDigital/nhs-notify/actions/workflows/jekyll-gh-pages.yml)
 
-## NHS Notify Technical Developer Documentation
+## Using this documentation
 
-> Please visit the [NHS Service Catalogue](https://digital.nhs.uk/services/nhs-notify) for:
->
-> - NHS Notify web site.
-> - Onboarding guidance.
-> - Customer support.
-> - Supplier support.
->
+Please visit the [NHS Service Catalogue](https://digital.nhs.uk/services/nhs-notify) for:
+
+- NHS Notify web site.
+- Onboarding guidance.
+- Customer support.
+- Supplier support.
+
 > ### Who/what is this repository is for?
 >
 > - NHS Developers working on NHS Notify
@@ -38,19 +44,19 @@ permalink: /
 >
 > - Any configuration of details of the Deployment phases or infrastructure of the NHS Notify Platform.
 > - Information about the NHS England hosted NHS Notify platform
->
 
 ## Table of Contents
 
-- [NHS Notify Technical Developer Documentation](#nhs-notify-technical-developer-documentation)
-- [Table of Contents](#table-of-contents)
-- [Related Repos](#related-repos)
-- [Documentation](#documentation)
-- [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Configuration](#configuration)
-- [Contributing](#contributing)
-- [Licence](#licence)
+- [NHS Notify Developer Technical Documentation](#nhs-notify-developer-technical-documentation)
+  - [Using this documentation](#using-this-documentation)
+  - [Table of Contents](#table-of-contents)
+  - [Related Repos](#related-repos)
+  - [Documentation](#documentation)
+  - [Setup](#setup)
+    - [Prerequisites](#prerequisites)
+    - [Configuration](#configuration)
+  - [Contributing](#contributing)
+  - [Licence](#licence)
 
 ## Related Repos
 

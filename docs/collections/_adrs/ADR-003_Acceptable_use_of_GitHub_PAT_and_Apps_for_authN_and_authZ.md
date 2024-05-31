@@ -5,8 +5,6 @@ description: Acceptable use of GitHub authentication and authorisation mechanism
 summary: Acceptable use of GitHub authentication and authorisation mechanisms
 ---
 
-## ADR-003: Acceptable use of GitHub authentication and authorisation mechanisms
-
 > |              |                                              |
 > | ------------ | -------------------------------------------- |
 > | Date         | `04/09/2023`                                 |
@@ -17,7 +15,6 @@ summary: Acceptable use of GitHub authentication and authorisation mechanisms
 
 ---
 
-- [ADR-003: Acceptable use of GitHub authentication and authorisation mechanisms](#adr-003-acceptable-use-of-github-authentication-and-authorisation-mechanisms)
 - [Context](#context)
 - [Decision](#decision)
   - [Assumptions](#assumptions)
