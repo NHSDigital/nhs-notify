@@ -10,13 +10,13 @@ permalink: /
 
 <!-- markdownlint-disable MD025 -->
 
-# NHS Notify Technical Developer Documentation
+# NHS Notify Developer Technical Documentation
 
 <!-- markdownlint-enable MD025 -->
 
 [![CI/CD Pull Request](https://github.com/NHSDigital/nhs-notify/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/NHSDigital/nhs-notify/actions/workflows/jekyll-gh-pages.yml)
 
-## NHS Notify Technical Developer Documentation
+## Using this documentation
 
 Please visit the [NHS Service Catalogue](https://digital.nhs.uk/services/nhs-notify) for:
 
@@ -47,8 +47,8 @@ Please visit the [NHS Service Catalogue](https://digital.nhs.uk/services/nhs-not
 
 ## Table of Contents
 
-- [NHS Notify Technical Developer Documentation](#nhs-notify-technical-developer-documentation)
-  - [NHS Notify Technical Developer Documentation](#nhs-notify-technical-developer-documentation-1)
+- [NHS Notify Developer Technical Documentation](#nhs-notify-developer-technical-documentation)
+  - [Using this documentation](#using-this-documentation)
   - [Table of Contents](#table-of-contents)
   - [Related Repos](#related-repos)
   - [Documentation](#documentation)
