@@ -1,5 +1,4 @@
 ---
-
 title: ADR-007
 parent: Active ADRs
 description: Naming Conventions

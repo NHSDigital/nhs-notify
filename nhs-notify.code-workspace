@@ -29,7 +29,22 @@
       "ruleset",
       "Stefaniuk"
     ],
-    "cSpell.language": "en-GB"
+    "cSpell.language": "en-GB",
+    "editor.wordWrap": "off",
+    "editor.formatOnSave": true,
+    "[markdown]": {
+      "editor.wordWrap": "off",
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
   },
   "extensions": {
     "recommendations": [
@@ -64,7 +79,8 @@
       "yzane.markdown-pdf",
       "yzhang.dictionary-completion",
       "yzhang.markdown-all-in-one",
-      "joshx.workspace-terminals"
+      "joshx.workspace-terminals",
+      "takumii.markdowntable"
     ],
     "unwantedRecommendations": []
   }
