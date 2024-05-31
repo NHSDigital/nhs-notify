@@ -12,7 +12,6 @@ summary: Documentation stored within repo
 | Deciders     | `Engineering`  |
 | Significance | `Ross Buggins` |
 
-- [ADR-005: Documentation stored within repo](#adr-005-documentation-stored-within-repo)
 - [Decision](#decision)
 
 ## Decision
