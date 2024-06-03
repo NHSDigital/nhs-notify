@@ -7,4 +7,16 @@ author: Ross Buggins
 parent: Architecture
 ---
 
-{% drawio path="assets/diagrams/architecture/target-architecture/target-architecture.drawio" page_number=0 height=400 %}
+## Proposed Target Architecture
+
+Which aims to include:
+
+- Distributed System
+- Event Driven Architecture
+- NHS Notify own Event Bus
+- Separate datastore per bounded context
+- Multiple microservices per bounded context
+- Microservice is the smallest deployable unit
+-
+
+{% drawio path="assets/diagrams/architecture/target-architecture/target-architecture.drawio" page_number=0 height=800 %}
