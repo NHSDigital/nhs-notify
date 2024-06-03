@@ -17,6 +17,5 @@ Which aims to include:
 - Separate datastore per bounded context
 - Multiple microservices per bounded context
 - Microservice is the smallest deployable unit
--
 
 {% drawio path="assets/diagrams/architecture/target-architecture/target-architecture.drawio" page_number=0 height=800 %}
