@@ -20,10 +20,11 @@ permalink: /
 
 Please visit the [NHS Service Catalogue](https://digital.nhs.uk/services/nhs-notify) for:
 
-- NHS Notify web site.
-- Onboarding guidance.
-- Customer support.
-- Supplier support.
+- Use of the live NHS Notify SaaS
+- NHS Notify web site
+- Onboarding guidance
+- Customer support
+- Supplier support
 
 > ### Who/what is this repository is for?
 >

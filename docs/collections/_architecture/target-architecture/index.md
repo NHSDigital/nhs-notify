@@ -1,21 +1,33 @@
 ---
-title: Target Architecture
-description: NHS Notify Target Architecture
-summary: NHS Notify Target Architecture
+title: Target architecture
+description: Notify Application Stack Target Architecture
+summary: Notify Application Stack Target Architecture
 last_modified_date: 2024-03-06
 author: Ross Buggins
 parent: Architecture
 ---
 
-## Proposed Target Architecture
+## Table of contents
 
-Which aims to include:
+- [Table of contents](#table-of-contents)
+- [Proposed target architecture](#proposed-target-architecture)
+- [Architectural aims and goals](#architectural-aims-and-goals)
+  - [Conceptual example boundaries](#conceptual-example-boundaries)
 
-- Distributed System
+## Proposed target architecture
+
+With focus on:
+
+- distributed system
 - Event Driven Architecture
-- NHS Notify own Event Bus
-- Separate datastore per bounded context
-- Multiple microservices per bounded context
-- Microservice is the smallest deployable unit
+- notify managed Event Bus for inter BC integration events
+- interact with external EDA Event Bus' via subscribing to integration events
+- separate datastore per bounded context
+- multiple microservices per bounded context
+- microservice is the smallest deployable unit
+
+## Architectural aims and goals
+
+### Conceptual example boundaries
 
 {% drawio path="assets/diagrams/architecture/target-architecture/target-architecture.drawio" page_number=0 height=800 %}
