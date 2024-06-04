@@ -1,19 +1,22 @@
 <mxfile host="65bd71144e">
     <diagram id="nnI5kmmqy38R1dzidA2f" name="Page-1">
-        <mxGraphModel dx="1923" dy="1780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2364" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="46" value="EXTERNAL - NHS E" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;" parent="1" vertex="1">
-                    <mxGeometry x="-50" y="890" width="870" height="130" as="geometry"/>
+                <mxCell id="69" value="Example Bounded Contexts" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;align=left;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
+                    <mxGeometry x="-160" y="540" width="990" height="340" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="NHS Notify Bounded Context 1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;" parent="1" vertex="1">
+                <mxCell id="46" value="External Services" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="-50" y="905" width="870" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Notify Bounded Context 1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;" parent="1" vertex="1">
                     <mxGeometry x="40" y="70" width="210" height="250" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="NHS Notify Bounded Context 2&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;" parent="1" vertex="1">
+                <mxCell id="6" value="Notify Bounded Context 2" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;" parent="1" vertex="1">
                     <mxGeometry x="320" y="70" width="210" height="250" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="NHS Notify Bounded Context n" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;" parent="1" vertex="1">
+                <mxCell id="7" value="Notify Bounded Context n" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;" parent="1" vertex="1">
                     <mxGeometry x="600" y="70" width="210" height="250" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;fontColor=default;" parent="1" source="8" target="51" edge="1">
@@ -31,7 +34,7 @@
                 <mxCell id="54" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;fontColor=default;" parent="1" source="4" target="50" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="NHS Notify Event Bus" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=default;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;" parent="1" vertex="1">
+                <mxCell id="4" value="Notify Event Bus" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=default;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;" parent="1" vertex="1">
                     <mxGeometry x="380" y="400" width="78" height="78" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.372;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=default;startArrow=classic;startFill=1;" parent="1" source="9" target="8" edge="1">
@@ -118,13 +121,16 @@
                 <mxCell id="37" style="edgeStyle=none;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=default;" parent="1" source="36" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" style="edgeStyle=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=default;" parent="1" source="36" target="34" edge="1">
+                <mxCell id="38" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=default;" parent="1" source="36" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="36" target="7">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="-120" width="30" height="60" as="geometry"/>
+                    <mxGeometry x="370" y="-110" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="MNS Bounded Context" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;align=left;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" parent="1" vertex="1">
+                <mxCell id="39" value="External Eventing Bounded Context" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;align=left;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" parent="1" vertex="1">
                     <mxGeometry x="570" y="620" width="240" height="230" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" style="edgeStyle=none;html=1;exitX=0.855;exitY=0.855;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=default;" parent="1" source="41" target="45" edge="1">
@@ -145,8 +151,8 @@
                 <mxCell id="43" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;fontColor=default;" parent="1" vertex="1">
                     <mxGeometry x="717.23" y="650" width="38.33" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="NHS MNS" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=default;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="1" vertex="1">
-                    <mxGeometry x="658.33" y="900" width="78" height="78" as="geometry"/>
+                <mxCell id="45" value="Notification Services" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=default;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="1" vertex="1">
+                    <mxGeometry x="658.33" y="927.5" width="78" height="78" as="geometry"/>
                 </mxCell>
                 <mxCell id="58" style="edgeStyle=none;html=1;fontColor=default;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="51" target="57" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -166,14 +172,14 @@
                 <mxCell id="52" value="Data Lake Bounded Context" style="rounded=0;whiteSpace=wrap;html=1;fontColor=default;align=left;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" parent="1" vertex="1">
                     <mxGeometry x="-135" y="620" width="175" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" value="NHS NRL Datalake" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=default;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
-                    <mxGeometry x="75" y="900" width="78" height="78" as="geometry"/>
+                <mxCell id="56" value="Datalake Storage" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=default;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
+                    <mxGeometry x="75" y="927.5" width="78" height="78" as="geometry"/>
                 </mxCell>
                 <mxCell id="57" value="Power BI" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Power.svg;fontColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="450" y="905" width="44" height="68" as="geometry"/>
+                    <mxGeometry x="450" y="932.5" width="44" height="68" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" value="NHS CDP&amp;nbsp;" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Databricks.svg;fontColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="900" width="88.54" height="85" as="geometry"/>
+                <mxCell id="61" value="Databricks Data Platform" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Databricks.svg;fontColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="251.46" y="924" width="88.54" height="85" as="geometry"/>
                 </mxCell>
                 <mxCell id="63" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;fontColor=default;" parent="1" vertex="1">
                     <mxGeometry x="411.66999999999996" y="640" width="38.33" height="40" as="geometry"/>
