@@ -70,10 +70,15 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Download site artifacts
         uses: actions/download-artifact@v4
         with:
           name: site
+          path: _site
+      - name: Display structure of downloaded files
+        run: ls -R
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
