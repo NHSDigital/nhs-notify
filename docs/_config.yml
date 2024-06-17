@@ -119,6 +119,7 @@ just_the_docs:
 theme: just-the-docs
 plugins:
   - jekyll-feed
+  - jemoji
 
 color_scheme: nhs
 mermaid:

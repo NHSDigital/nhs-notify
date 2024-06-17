@@ -87,10 +87,14 @@ jobs:
         with:
           fetch-depth: 0 # Full history is needed to improving relevancy of reporting
       - name: Stage 2 Test - Sonar Cloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
+        uses: SonarSource/sonarcloud-github-action@v2.3.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          args: >
+            -Dsonar.organization=${{ vars.SONAR_ORGANISATION_KEY }}
+            -Dsonar.projectKey=${{ vars.SONAR_PROJECT_KEY }}
 #      - name: "Perform static analysis"
 #        uses: ./.github/actions/perform-static-analysis
 #        with:
