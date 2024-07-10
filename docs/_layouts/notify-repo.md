@@ -4,19 +4,15 @@ layout: page
 
 <!-- markdownlint-disable MD041 -->
 
-<p>
-<a href="https://github.com/NHSDigital/{{page.repo-name}}">https://github.com/NHSDigital/{{page.repo-name}}</a>
-</p>
+<dl>
+  <dt>Repository</dt>
+  <dd><a href="https://github.com/NHSDigital/{{page.repo-name}}">https://github.com/NHSDigital/{{page.repo-name}}</a></dd>
 
-<h2>Authors</h2>
-
-<ul>
+<dt>Owners</dt>
 {% for owner in page.owners %}
-    <li> <a href="http://github.com/{{owner}}">{{owner}}</a> </li>
+    <dd> <a href="http://github.com/{{owner}}">{{owner}}</a> </dd>
 {% endfor %}
-</ul>
-
-<h2>Content</h2>
+</dl>
 
 {{ content }}
 

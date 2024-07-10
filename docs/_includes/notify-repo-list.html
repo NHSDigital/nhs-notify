@@ -4,7 +4,7 @@
   {% for repo in site.repos %} {% if repo.order > 0 %}
   <li>
     <a href="{{site.baseurl}}/repos/{{repo.repo-name}}.html">
-      {{ repo.name }} - {{ repo.description }}
+      {{ repo.repo-name }} - {{ repo.name }}
     </a>
   </li>
   {% endif %} {% endfor %}
