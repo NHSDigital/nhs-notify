@@ -24,3 +24,4 @@ drawio
 endraw
 [Oo]nboarding
 relative_url
+Cognito
