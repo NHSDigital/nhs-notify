@@ -1,7 +1,6 @@
 ---
 repo-name: nhs-notify-iam-webauth
 owners: [ "rossbugginsnhs", "m-houston" ]
-title: nhs-notify-iam-webauth
 name: Notify IAM Web Authentication
 description: OIDC Authentication Micro-Frontend for Web UI
 author: "Mike Houston"
