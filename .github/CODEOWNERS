@@ -1,6 +1,6 @@
 # NHS Notify Code Owners
 
-* @NHSDigital/nhs-notify-code-owners
+* @NHSDigital/nhs-notify-amet
 
 # Default protection for codeowners, must be last in file.
 /.github/CODEOWNERS @NHSDigital/nhs-notify-code-owners
