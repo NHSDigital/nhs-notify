@@ -43,6 +43,23 @@ require additional scrutiny.
 * We will use GitHub hosted runners for CI in all public repos
 * We will also use GitHub hosted runners for private repos unless we have a good reason that a private runner is needed
 
+## Branch Protection Rules
+
+* Allow Squash merges - this should be the default merge type for feature branches
+* Allow merge commits - this may be required for release or hotfix branches to be merged back to main
+* Require signed commits
+* Optional: merge queues may be used if merge frequency causes issues for a repository
+* Use branch protection rules - rulesets are currently not recognised by the engineering quality dashboard
+  * `main` branch should be protected from deletion
+  * Require a pull request before merging
+  * Require approvals
+  * Dismiss stale pull request approvals when new commits are pushed
+  * Require review from Code Owners
+  * Require approval of the most recent reviewable push
+  * Require status checks to pass before merging
+  * Require conversation resolution before merging
+  * Require signed commits
+
 ## Pull requests for public repos
 
 * [Pull requests from forked repos should be configured to require a maintainer to approve the workflow run for all outside contributors](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#controlling-changes-from-forks-to-workflows-in-public-repositories)

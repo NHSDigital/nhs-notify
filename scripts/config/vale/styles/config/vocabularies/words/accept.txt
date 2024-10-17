@@ -11,6 +11,7 @@ endraw
 GitHub
 Gitleaks
 Grype
+hotfix
 idempotence
 io
 Jira
