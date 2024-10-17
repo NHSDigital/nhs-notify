@@ -18,7 +18,7 @@ This guide follows the NHSE Software Engineering Quality Framework, in particula
 
 Following
 the [SEQF guidance](https://github.com/NHSDigital/software-engineering-quality-framework/blob/main/practices/securing-repositories.md#teams-setup),
-the default codeowner should be the GitHub team with write access to the repository.
+the default code owner should be the GitHub team with write access to the repository.
 
 In addition, due to the multi-repository structure of the codebase, the CODEOWNERS files themselves are protected by
 requiring approval from a project-wide nhs-notify-code-owners team.

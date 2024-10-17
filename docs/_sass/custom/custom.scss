@@ -1,7 +1,7 @@
 // Totally custom here.
 
 .nav-category {
-  text-transform:none;
+  text-transform: none;
   color: $grey-dk-300;
   @include fs-4;
   font-weight: 600;
@@ -14,7 +14,7 @@
     }
   }
 }
-.site-title{
+.site-title {
   font-weight: 600;
   font-size: 1.2rem !important;
 }
@@ -23,7 +23,7 @@
   .nav-list-item {
     @include fs-4;
     font-weight: 400;
-    -webkit-font-smoothing:antialiased;
+    -webkit-font-smoothing: antialiased;
   }
 }
 
@@ -35,22 +35,34 @@ body {
 }
 
 @media (min-width: 31.25rem) {
-  h1, .text-alpha {
-      font-size: 3rem !important;
-      font-weight: 600;
+  h1,
+  .text-alpha {
+    font-size: 3rem !important;
+    font-weight: 600;
   }
 }
 
 @media (min-width: 31.25rem) {
-  h2, .text-alpha {
-      font-size: 2rem !important;
-      font-weight: 600;
+  h2,
+  .text-alpha {
+    font-size: 2rem !important;
+    font-weight: 600;
   }
 }
 
 @media (min-width: 31.25rem) {
-  h3, .text-alpha {
-      font-size: 1.5rem !important;
-      font-weight: 600;
+  h3,
+  .text-alpha {
+    font-size: 1.5rem !important;
+    font-weight: 600;
   }
 }
+
+.table-wrapper {
+  display: inline-block;
+  width: unset;
+  }
+
+  th, td {
+    min-width: 1%;
+    }
