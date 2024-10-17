@@ -4,7 +4,7 @@ repos:
   - id: scan-secrets
     name: Scan secrets
     entry: ./scripts/githooks/scan-secrets.sh
-    args: ["check=staged-changes"]
+    args: ["check=branch"]
     language: script
     pass_filenames: false
 - repo: local
@@ -12,7 +12,7 @@ repos:
   - id: check-file-format
     name: Check file format
     entry: ./scripts/githooks/check-file-format.sh
-    args: ["check=staged-changes"]
+    args: ["check=branch"]
     language: script
     pass_filenames: false
 - repo: local
@@ -20,7 +20,7 @@ repos:
   - id: check-markdown-format
     name: Check Markdown format
     entry: ./scripts/githooks/check-markdown-format.sh
-    args: ["check=staged-changes"]
+    args: ["check=branch"]
     language: script
     pass_filenames: false
 - repo: local
@@ -28,7 +28,7 @@ repos:
   - id: check-english-usage
     name: Check English usage
     entry: ./scripts/githooks/check-english-usage.sh
-    args: ["check=staged-changes"]
+    args: ["check=branch"]
     language: script
     pass_filenames: false
 - repo: local
