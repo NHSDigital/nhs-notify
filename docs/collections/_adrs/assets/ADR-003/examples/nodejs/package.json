@@ -1,8 +1,4 @@
 {
-  "main": "main.ts",
-  "scripts": {
-    "start": "ts-node main.ts"
-  },
   "dependencies": {
     "@octokit/auth-app": "^6.0.0",
     "octokit": "^3.1.0"
@@ -10,5 +6,9 @@
   "devDependencies": {
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
+  },
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node main.ts"
   }
 }

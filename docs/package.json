@@ -1,20 +1,15 @@
 {
-  "name": "nhs-notify",
-  "version": "1.0.0",
+  "author": "",
+  "dependencies": {},
   "description": "",
+  "devDependencies": {},
+  "engines": {},
+  "keywords": [],
+  "license": "ISC",
+  "name": "nhs-notify",
   "private": true,
-    "engines": {
-    },
-
   "scripts": {
     "debug": "JEKYLL_ENV=development BUNDLE_GEMFILE=Gemfile bundle exec jekyll serve --config _config.yml,_config.dev.yml --limit_posts 100 --trace --livereload"
-
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-  },
-  "dependencies": {
-  }
+  "version": "1.0.0"
 }

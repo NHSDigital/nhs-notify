@@ -2,10 +2,10 @@
   assign wordWarning = 200 %} {% assign wordCount = content | number_of_words%} {%
   assign readTime = wordCount | divided_by: 100.0 | ceil %} {% if page.sub_title
   %}
-  <h1>{{ page.name }}</h1>
+  <h1>{{ page.title }}</h1>
   <p class="text-medium text-grey-dk-300 mb-0">{{ page.summary }}</p>
   {% else %}
-  <h1>{{ page.name }}</h1>
+  <h1>{{ page.title }}</h1>
   {% endif %}
 
   <div class="page-info">
